@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DACS.Models.DatLichKham>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.BenhNhan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BenhNhan.SoDienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LichLamViec)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayDatLich)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrangThai)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.BenhNhan.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BenhNhan.SoDienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LichLamViec.Ca)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayDatLich)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TrangThai)
+                </td>
+                <td>
+                <td> <a class="btn btn-danger" asp-action="DeleteLichDatKham" asp-controller="admin" asp-route-id="@item.Id">Xóa</a></td></td>
+        </tr>
+}
+    </tbody>
+</table>

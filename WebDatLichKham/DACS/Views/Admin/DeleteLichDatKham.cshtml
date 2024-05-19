@@ -1,0 +1,42 @@
+﻿@model DACS.Models.DatLichKham
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Xác nhận xóa đặt lịch khám";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Bạn có chắc chắn muốn xóa đặt lịch khám sau đây?</p>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID:
+        </dt>
+        <dd>
+            @Model.Id
+        </dd>
+        <dt>
+            Ngày đặt lịch:
+        </dt>
+        <dd>
+            @Model.NgayDatLich.ToString("dd/MM/yyyy")
+        </dd>
+
+        <dt>
+            Trạng thái:
+        </dt>
+        <dd>
+            @Model.TrangThai
+        </dd>
+
+        <!-- Thêm các thuộc tính khác của DatLichKham cần hiển thị -->
+
+    </dl>
+
+    <form asp-action="DeleteLichDatKham" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Xác nhận" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

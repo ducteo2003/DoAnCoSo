@@ -1,0 +1,77 @@
+﻿@model DACS.Models.LichLamViec
+
+@{
+    ViewData["Title"] = "AddLichLamViec";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<style>
+    .btn-selected {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+</style>
+
+<h1>Thêm mới lịch làm việc</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddLichLamViec">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BacSiId" class="control-label"></label>
+                <select asp-for="BacSiId" class="form-control" asp-items="ViewBag.BacSiId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lich" class="control-label"></label>
+                <input asp-for="Lich" class="form-control" type="date" />
+                <span asp-validation-for="Lich" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Chọn Ca Làm Việc</label>
+                <div id="caLamViec">
+                    @for (int hour = 7; hour <= 19; hour++)
+                    {
+                        for (int minute = 0; minute < 60; minute += 15)
+                        {
+                            var startTime = new TimeOnly(hour, minute);
+                            var formattedTime = startTime.ToString("HH:mm"); // Định dạng 24 giờ
+                            <button type="button" class="btn btn-outline-primary caLamViecButton" data-time="@formattedTime">@formattedTime</button>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Ca" id="Ca" />
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexLichLamViec">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var selectedTimes = [];
+
+            $(".caLamViecButton").click(function () {
+                var time = $(this).data("time");
+                var index = selectedTimes.indexOf(time);
+                if (index === -1) {
+                    selectedTimes.push(time);
+                    $(this).removeClass("btn-outline-primary").addClass("btn-primary btn-selected");
+                } else {
+                    selectedTimes.splice(index, 1);
+                    $(this).removeClass("btn-primary btn-selected").addClass("btn-outline-primary");
+                }
+                $("#Ca").val(selectedTimes.join(','));
+            });
+        });
+    </script>
+}

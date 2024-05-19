@@ -1,0 +1,25 @@
+﻿.doctor-profile {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.doctor-info {
+    flex-basis: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.doctor-details {
+    margin-top: 10px;
+}
+
+.appointment-booking {
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+.back-to-home {
+    text-align: center;
+    margin-top: 20px;
+}

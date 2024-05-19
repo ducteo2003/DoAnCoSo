@@ -1,0 +1,50 @@
+﻿
+<style>
+    .btn-disabled {
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+    }
+</style>
+@model IEnumerable<LichLamViec>
+<ul>
+    <li>
+        <div class="button-container">
+            @if (Model.Any())
+            {
+                foreach (var schedule in Model)
+                {
+                    var endTime = schedule.Ca.AddMinutes(15);
+                    <a id="btn-@schedule.Id" type="button" class="btn btn-primary" href="#" data-time="@schedule.Ca.ToString("HH\\:mm")" onclick="setTime('@schedule.Id', '@schedule.Ca.ToString("HH\\:mm")', this)">
+                        @schedule.Ca.ToString("HH\\:mm") - @endTime.ToString("HH\\:mm")
+                    </a>
+                }
+            }
+            else
+            {
+                <p>Hiện tại không có lịch khám nào.</p>
+            }
+        </div>
+    </li>
+</ul>
+<script>
+    function setTime(lichId, time, button) {
+        if ($(button).hasClass('btn-disabled')) {
+            return; // Stop the function if the button is already disabled
+        }
+        alert("Bạn đã chọn thời gian: " + time);
+        $.ajax({
+            url: '/Bacsis/SetTime',
+            type: 'POST',
+            data: { lichId: lichId, time: time },
+            success: function (response) {
+                $(button).addClass("btn-disabled").removeAttr("onclick"); // Disable the button after successful booking
+                window.location.href = '/Bacsis/NhapThongTinBenhNhan?lichId=' + lichId; // Redirect if needed
+            },
+            error: function (xhr, status, error) {
+                console.error('AJAX error:', error);
+                alert("Thời gian bạn chọn đã được đặt trước");
+            }
+        });
+    }
+</script>

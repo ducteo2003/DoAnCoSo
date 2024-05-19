@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DACS.Models.ChucVu>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Quản lý chức vụ</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Addchucvu">Tạo mới chức vụ</a>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+
+           
+            <th>Tên chức vụ</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <td>@item.Name</td>
+                <td>
+                    <a class="btn btn-danger" asp-action="DeleteChucVu" asp-route-id="@item.Id">Xóa</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

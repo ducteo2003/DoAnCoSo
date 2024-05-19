@@ -1,0 +1,51 @@
+﻿@model DACS.Models.TinYTe
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .news-article {
+        max-width: 800px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .news-header h1 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    .date-posted {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+    .news-content {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+    }
+</style>
+<section class="news-article">
+    <div class="news-header">
+        <h1>@Model.TieuDe</h1>
+        <p class="date-posted">Đăng ngày: @Model.NgayDang.ToString("dd/MM/yyyy")</p>
+    </div>
+    <figure>
+        <img src="@Model.ImageUrl" alt="Ảnh tin tức y tế" />
+    </figure>
+    <article class="news-content">
+        @Html.Raw(Model.NoiDung)
+    </article>
+</section>

@@ -1,0 +1,16 @@
+﻿@model DACS.Models.ChucVu
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Thêm Chức Vụ";
+}
+
+
+<h2>Thêm Chức Vụ</h2>
+<form asp-action="Addchucvu" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm</button>
+</form>

@@ -1,0 +1,38 @@
+﻿@model DACS.Models.TinYTe
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Xóa Tin Y Tế";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Bạn có chắc chắn muốn xóa bản ghi này?</p>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID
+        </dt>
+
+        <dd>
+            @Model.Id
+        </dd>
+
+        <dt>
+            Tiêu đề
+        </dt>
+
+        <dd>
+            @Model.TieuDe
+        </dd>
+
+        <!-- Add other properties as needed -->
+
+    </dl>
+
+    <form asp-action="DeleteTinYte" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Xác nhận" class="btn btn-danger" />
+        <a asp-action="IndexTinYte" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

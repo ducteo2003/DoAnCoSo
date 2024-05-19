@@ -1,0 +1,95 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(../Images/Backgoundlogin.png) no-repeat center center; /* Ensure the background covers the full screen properly */
+    background-size: cover;
+    background-position-y: -60px;
+}
+
+.row {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-4 {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8); /* More subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    color: aliceblue; /* Ensures all text is light */
+}
+
+.form-heading {
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Specific to form inputs and their container */
+.form-floating {
+    position: relative;
+    border-bottom: 1px solid #ffffff; /* Bottom border for each input */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex; /* Flexbox for alignment */
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue; /* Ensures text is visible against dark background */
+    padding: 10px 0;
+    flex-grow: 1; /* Takes full width of the container */
+    font-size: 16px;
+}
+
+    .form-control::placeholder {
+        color: #ddd; /* Light grey placeholder for better visibility */
+    }
+
+.fa {
+    color: aliceblue; /* Icon color consistent with the form design */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+}
+
+/* Button and link styling */
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+a {
+    color: #00bfff; /* Lighter blue for links */
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

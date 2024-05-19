@@ -1,0 +1,70 @@
+﻿@model DACS.Models.BenhNhan
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Xác nhận xóa bệnh nhân";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Bạn có chắc chắn muốn xóa bệnh nhân sau đây?</p>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            ID:
+        </dt>
+        <dd>
+            @Model.Id
+        </dd>
+
+        <dt>
+            Tên:
+        </dt>
+        <dd>
+            @Model.Name
+        </dd>
+
+        <dt>
+            Giới tính:
+        </dt>
+        <dd>
+            @Model.GioiTinh
+        </dd>
+
+        <dt>
+            Ngày sinh:
+        </dt>
+        <dd>
+            @Model.NgaySinh.ToString("dd/MM/yyyy")
+        </dd>
+
+        <dt>
+            Địa chỉ:
+        </dt>
+        <dd>
+            @Model.DiaChi
+        </dd>
+
+        <dt>
+            Số điện thoại:
+        </dt>
+        <dd>
+            @Model.SoDienThoai
+        </dd>
+
+        <dt>
+            Tình trạng:
+        </dt>
+        <dd>
+            @Model.TinhTrang
+        </dd>
+
+        <!-- Add other properties as needed -->
+    </dl>
+
+    <form asp-action="DeleteBenhNhan" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Xác nhận" class="btn btn-danger" />
+        <a asp-action="IndexDoctor" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

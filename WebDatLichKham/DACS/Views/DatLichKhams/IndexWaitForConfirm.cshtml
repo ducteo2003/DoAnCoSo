@@ -1,0 +1,63 @@
+﻿@model IEnumerable<DACS.Models.DatLichKham>
+@{
+   
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Lịch Khám Đang Chờ Xác Nhận</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Bệnh Nhân</th>
+            <th>Số điện thoại</th>
+            <th>Ngày đặt lịch</th>
+            <th>Ngày khám bệnh</th>
+            <th>Khung giờ khám bệnh</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BenhNhan.Name</td>
+                <td>@item.BenhNhan.SoDienThoai</td>
+                <td>@item.NgayDatLich.ToString("dd/MM/yyyy")</td>
+                <td>@item.LichLamViec.Lich.ToString("dd/MM/yyyy")</td>
+                <td>@item.LichLamViec.Ca</td>
+                <td>@item.TrangThai</td>
+                <td>
+                    <form asp-action="Confirm" asp-route-id="@item.Id" method="post">
+                        <button type="submit" class="btn btn-success confirm-btn" data-patient-name="@item.BenhNhan.Name">Xác Nhận</button>
+                    </form>
+                    <form asp-action="Cancel" asp-route-id="@item.Id" method="post">
+                        <button type="submit" class="btn btn-danger cancel-btn" data-patient-name="@item.BenhNhan.Name">Hủy</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.confirm-btn').click(function (event) {
+            var patientName = $(this).data('patient-name');
+            var confirmMessage = 'Bạn đã gọi bệnh nhân ' + patientName + ' để xác nhận lịch đặt khám bệnh chưa?';
+            if (!confirm(confirmMessage)) {
+                event.preventDefault(); // Prevent form submission if the user clicks 'Cancel'
+            }
+        });
+    });
+    $(document).ready(function () {
+        $('.cancel-btn').click(function (event) {
+            var patientName = $(this).data('patient-name');
+            var confirmMessage = 'Bạn có chắc chắn hủy lịch đặt khám bệnh của bệnh nhân ' + patientName + ' không?';
+            if (!confirm(confirmMessage)) {
+                event.preventDefault(); // Prevent form submission if the user clicks 'Cancel'
+            }
+        });
+    });
+</script>

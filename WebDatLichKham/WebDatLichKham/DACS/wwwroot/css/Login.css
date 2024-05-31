@@ -1,0 +1,65 @@
+﻿.login-container,
+.login-container .card,
+.login-container .card-header,
+.login-container .form-heading,
+.login-container .form-floating .form-control,
+.login-container .form-floating label,
+.login-container .login-info,
+.login-container .login-info h3,
+.login-container .login-info p {
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
+
+.form-heading {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.form-floating .form-control {
+    height: calc(3.5rem + 2px);
+    padding: 1rem 0.75rem;
+}
+
+.form-floating label {
+    padding: 1rem 0.75rem;
+}
+
+.login-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .login-info h3 {
+        color: #007bff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .login-info p {
+        color: #6c757d;
+        font-size: 18px;
+    }
+
+    .login-info img {
+        margin-top: 20px;
+        max-width: 100%;
+    }

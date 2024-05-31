@@ -1,0 +1,72 @@
+﻿@model DACS.Models.Khoa
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Thêm Chuyên Khoa";
+}
+
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title">Thông tin chuyên khoa</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Addchucvu" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label">Tên chuyên khoa</label>
+                            <input asp-for="Name" class="form-control" placeholder="Nhập tên chuyên khoa" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success">Thêm</button>
+                            <a asp-action="IndexKhoa" class="btn btn-secondary">Quay lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 15px;
+        border: none;
+    }
+
+    .card-header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .form-label {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+</style>

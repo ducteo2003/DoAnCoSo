@@ -1,0 +1,131 @@
+﻿@model DACS.Models.BacSi
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Thêm Bác sĩ";
+}
+
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title">Thông tin bác sĩ</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddBacsi" method="post" enctype="multipart/form-data">
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label">Tên bác sĩ</label>
+                            <input asp-for="Name" class="form-control" required />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="GioiTinh" class="form-label">Giới tính</label>
+                            <select asp-for="GioiTinh" class="form-control">
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
+                            </select>
+                            <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="NgaySinh" class="form-label">Ngày sinh</label>
+                            <input asp-for="NgaySinh" class="form-control" id="NgaySinh" type="date" />
+                            <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="DiaChi" class="form-label">Địa chỉ</label>
+                            <input asp-for="DiaChi" class="form-control" />
+                            <span asp-validation-for="DiaChi" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="SoDienThoai" class="form-label">Số điện thoại</label>
+                            <input asp-for="SoDienThoai" class="form-control"></input>
+                            <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="GioiThieu" class="form-label">Giới thiệu</label>
+                            <textarea asp-for="GioiThieu" class="form-control"></textarea>
+                            <span asp-validation-for="GioiThieu" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="KinhNghiem" class="form-label">Kinh nghiệm</label>
+                            <textarea asp-for="KinhNghiem" class="form-control"></textarea>
+                            <span asp-validation-for="KinhNghiem" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="HocVan" class="form-label">Học vấn</label>
+                            <textarea asp-for="HocVan" class="form-control"></textarea>
+                            <span asp-validation-for="HocVan" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="KhoaId" class="form-label">Chuyên khoa</label>
+                            <select asp-for="KhoaId" asp-items="ViewBag.chuyenkhoas" class="form-control"></select>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="ChucVuId" class="form-label">Chức vụ</label>
+                            <select asp-for="ChucVuId" asp-items="ViewBag.chucvus" class="form-control"></select>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label asp-for="ImageUrl" class="form-label">Hình Ảnh Bác Sĩ</label>
+                            <input type="file" asp-for="ImageUrl" class="form-control" />
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success">Thêm</button>
+                            <a asp-action="IndexDoctor" class="btn btn-secondary">Quay lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#NgaySinh").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
+    });
+</script>
+
+<style>
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 15px;
+        border: none;
+    }
+
+    .card-header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .form-label {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+</style>

@@ -1,0 +1,71 @@
+﻿@model DACS.Models.TinYTe
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Xóa Tin Y Tế";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title">@ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    <p class="text-center">Bạn có chắc chắn muốn xóa bản ghi này?</p>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4 font-weight-bold">ID</dt>
+                        <dd class="col-sm-8">@Model.Id</dd>
+
+                        <dt class="col-sm-4 font-weight-bold">Tiêu đề</dt>
+                        <dd class="col-sm-8">@Model.TieuDe</dd>
+
+                        <!-- Add other properties as needed -->
+                    </dl>
+                    <form id="deleteForm" asp-action="DeleteTinYte" asp-route-id="@Model.Id" method="post">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">Xác nhận</button>
+                            <a asp-action="IndexTinYte" class="btn btn-secondary ml-2">Hủy</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        document.getElementById("deleteForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var form = this;
+
+            Swal.fire({
+                title: 'Bạn có chắc chắn?',
+                text: "Bạn sẽ không thể hoàn tác hành động này!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Xóa',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Show success message
+                    Swal.fire(
+                        'Đã xóa!',
+                        'Bản ghi đã được xóa.',
+                        'success'
+                    ).then(() => {
+                        // Submit the form after user clicks OK
+                        form.submit();
+                    });
+                }
+            });
+        });
+    </script>
+}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">

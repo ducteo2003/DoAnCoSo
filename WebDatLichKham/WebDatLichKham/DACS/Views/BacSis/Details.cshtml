@@ -1,0 +1,177 @@
+﻿@model DACS.Models.BacSi
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: 'Roboto', Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f8f9fa;
+    }
+
+    .container2 {
+        padding: 100px;
+    }
+
+    .breadcrumb {
+        background-color: #f8f9fa;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .breadcrumb-item a {
+        color: #007bff;
+    }
+
+    .breadcrumb-item.active {
+        color: #6c757d;
+    }
+
+    .card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .doctor-name {
+        color: black;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .doctor-title {
+        font-size: 1.25rem;
+        color: #6c757d;
+        margin-bottom: 10px;
+    }
+
+    .doctor-location, .doctor-fee {
+        font-size: 1rem;
+        color: #6c757d;
+        margin-bottom: 10px;
+    }
+
+    .back-to-home a {
+        background-color: black;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .back-to-home a:hover {
+            background-color: #0056b3;
+        }
+
+    .img-fluid {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+
+    .schedule-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .schedule-item {
+        flex: 1 1 calc(33.333% - 10px);
+        padding: 10px;
+        background-color: #e9ecef;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .outer-box {
+        border: 2px solid #007bff;
+        border-radius: 10px;
+        padding: 100px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<div class="container2 outer-box">
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Datlich", "Home")">Trang Chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="@Model.ImageUrl" alt="Doctor profile picture" class="img-fluid rounded-circle" />
+        </div>
+        <div class="col-md-6">
+            <h1 class="doctor-name">@Model.Name</h1>
+            <p class="doctor-title">Chức vụ: @Model.ChucVu.Name</p>
+            <p class="doctor-location"><i class="fas fa-map-marker-alt"></i> Chuyên khoa: @Model.Khoa.Name</p>
+            <p class="doctor-fee">@Model.KinhNghiem</p>
+        </div>
+        <div class="col-md-3">
+            <!-- Add any additional information or buttons if needed -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <h4>Chọn ngày khám</h4>
+                <input type="date" id="selectedDate" name="selectedDate" class="form-control" onchange="loadSchedules(this.value)" />
+                <div id="scheduleList" class="schedule-list mt-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <div class="card">
+                <h4>Thông tin bác sĩ</h4>
+                <p>@Model.GioiThieu</p>
+                <h4>Quá trình đào tạo</h4>
+                <p>@Model.KinhNghiem</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for appointment form -->
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoModalLabel">Thông tin đặt lịch khám bệnh</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="infoModalBody">
+                <!-- Form content will be loaded here via AJAX -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function loadSchedules(selectedDate) {
+            var bacsiId = @Model.Id;
+            var url = '@Url.Action("GetWorkSchedules", "BacSis")' + `?doctorId=${bacsiId}&selectedDate=${selectedDate}`;
+            $.get(url, function (data) {
+                $('#scheduleList').html(data);
+            });
+        }
+    </script>
+}

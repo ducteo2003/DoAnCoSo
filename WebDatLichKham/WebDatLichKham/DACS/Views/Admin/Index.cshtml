@@ -1,0 +1,156 @@
+﻿@model dynamic
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+
+<style>
+    .dashboard {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .overview, .patients {
+        flex: 1;
+        min-width: 300px;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .overview h2, .patients h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    .overview span, .patients span {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    canvas {
+        max-width: 100%;
+        height: 300px;
+    }
+
+    media (max-width: 768px) {
+        .overview-item
+
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    canvas {
+        height: 200px;
+    }
+
+    }
+</style>
+
+<div class="dashboard">
+    <div class="overview">
+        <h2>Tổng quan</h2>
+        <p>Tổng số bác sĩ: <span id="total-doctors">@Model.TotalDoctors</span></p>
+        <p>Tổng số bệnh nhân: <span id="total-patients">@Model.TotalPatients</span></p>
+        <p>Tổng số lịch đặt khám: <span id="total-appointments">@Model.TotalAppointments</span></p>
+        <p>Tổng số lịch đã hoàn thành khám bệnh: <span id="completed-appointments">@Model.CompletedAppointments</span></p>
+
+        <!-- Các thông tin khác -->
+    </div>
+
+    <div class="patients">
+        <h2>Thống kê bệnh nhân</h2>
+        <select id="timeframeSelect" class="form-control mb-4" onchange="updateChart()">
+            <option value="week">Tuần</option>
+            <option value="month">Tháng</option>
+            <option value="year">Năm</option>
+        </select>
+        <canvas id="patientChart"></canvas>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        updateChart();
+    });
+
+    function updateChart() {
+        const timeframe = document.getElementById('timeframeSelect').value;
+
+        fetch(`@Url.Action("GetPatientData", "Admin")?timeframe=${timeframe}`)
+            .then(response => response.json())
+            .then(data => {
+                const labels = data.map(item => item.label);
+                const patientCounts = data.map(item => item.count);
+
+                const colors = [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(54, 162, 235, 0.2)'
+                ];
+
+                const borderColors = [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(54, 162, 235, 1)'
+                ];
+
+                const ctx = document.getElementById('patientChart').getContext('2d');
+                if (window.myChart) {
+                    window.myChart.destroy();
+                }
+                window.myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Số lượng bệnh nhân',
+                            data: patientCounts,
+                            backgroundColor: colors,
+                            borderColor: borderColors,
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    }
+</script>

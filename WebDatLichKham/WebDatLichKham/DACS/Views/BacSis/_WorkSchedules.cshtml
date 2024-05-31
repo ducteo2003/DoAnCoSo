@@ -1,0 +1,110 @@
+﻿<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .btn-primary {
+        background-color: mintcream;
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 14px; /* Giảm kích thước chữ */
+    }
+
+        .btn-primary:hover {
+            background-color: mintcream;
+            color: black;
+        }
+
+        .btn-primary:active,
+        .btn-primary:focus {
+            background-color: mintcream;
+            color: black;
+        }
+
+    .btn-disabled {
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+        margin: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 14px; /* Giảm kích thước chữ */
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 300px; /* Giới hạn chiều cao */
+        overflow-y: auto; /* Thêm thanh cuộn nếu vượt quá chiều cao */
+    }
+        .button-container a {
+            flex: 0 0 18%; /* Chia đều các nút thành 5 phần */
+            text-align: center;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+</style>
+
+@model IEnumerable<LichLamViec>
+
+<ul>
+    <li>
+        <div class="button-container">
+            @if (Model.Any())
+            {
+                foreach (var schedule in Model)
+                {
+                    var endTime = schedule.Ca.AddMinutes(15);
+                    <a id="btn-@schedule.Id" type="button" class="btn btn-primary" href="#" data-time="@schedule.Ca.ToString("HH\\:mm")" onclick="setTime('@schedule.Id', '@schedule.Ca.ToString("HH\\:mm")', this)">
+                        @schedule.Ca.ToString("HH\\:mm") - @endTime.ToString("HH\\:mm")
+                    </a>
+                }
+            }
+            else
+            {
+                <p>Hiện tại không có lịch khám nào.</p>
+            }
+        </div>
+    </li>
+</ul>
+
+<script>
+    function setTime(lichId, time, button) {
+        if ($(button).hasClass('btn-disabled')) {
+            return;
+        }
+        $.ajax({
+            url: '/Bacsis/SetTime',
+            type: 'POST',
+            data: { lichId: lichId, time: time },
+            success: function (response) {
+                $(button).addClass("btn-disabled").removeAttr("onclick"); // Disable the button after successful booking
+                loadForm(lichId); // Load the form in the modal
+            },
+            error: function (xhr, status, error) {
+                console.error('AJAX error:', error);
+                alert("Thời gian bạn chọn đã được đặt trước");
+            }
+        });
+    }
+
+    function loadForm(lichId) {
+        $.ajax({
+            url: '/Bacsis/NhapThongTinBenhNhan',
+            type: 'GET',
+            data: { lichId: lichId },
+            success: function (response) {
+                $('#infoModalBody').html(response);
+                $('#infoModal').modal('show');
+            },
+            error: function (xhr, status, error) {
+                console.error('AJAX error:', error);
+                alert("Không thể tải form nhập thông tin");
+            }
+        });
+    }
+</script>

@@ -1,0 +1,67 @@
+﻿@page
+@model RegisterModel
+<link href="~/css/register.css" rel="stylesheet" />
+
+<div class="register-container d-flex align-items-center justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2 class="form-heading">Đăng Kí</h2>
+            </div>
+            <div class="card-body">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" onsubmit="redirectToAdmin(event)">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.FullName" class="form-control" autocomplete="username" aria-required="true" placeholder="Họ và Tên" />
+                        <label asp-for="Input.FullName">Họ Và Tên</label>
+                        <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <select asp-for="Input.Sex" class="form-control" aria-required="true">
+                            <option value="">Chọn Giới Tính</option>
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                        </select>
+                        <label asp-for="Input.Sex">Giới Tính</label>
+                        <span asp-validation-for="Input.Sex" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />
+                        <label asp-for="Input.Email">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Mật Khẩu" />
+                        <label asp-for="Input.Password">Mật Khẩu</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Xác Nhận Mật Khẩu" />
+                        <label asp-for="Input.ConfirmPassword">Xác Nhận Mật Khẩu</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    @if (Model.IsAdmin)
+                    {
+                        <div class="form-floating mb-3">
+                            <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-control">
+                                <option disabled selected>- Select Role -</option>
+                            </select>
+                            <label asp-for="Input.Role">Vai Trò</label>
+                        </div>
+                    }
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng Kí</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function redirectToAdmin(event) {
+            event.preventDefault();
+            window.location.href = "/Admin/Index";
+        }
+    </script>
+}

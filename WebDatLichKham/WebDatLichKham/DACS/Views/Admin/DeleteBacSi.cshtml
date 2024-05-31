@@ -1,0 +1,102 @@
+﻿@model DACS.Models.BacSi
+
+@{
+    ViewData["Title"] = "Xóa Bác Sĩ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-sm">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title">Xóa Bác Sĩ</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="text-center">Bạn có chắc chắn muốn xóa mục này không?</h4>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="@Model.ImageUrl" class="img-fluid img-thumbnail" alt="Hình ảnh bác sĩ" style="max-width: 250px; max-height: 300px;">
+                        </div>
+                        <div class="col-md-8">
+                            <dl class="row">
+                                <dt class="col-sm-4 font-weight-bold">Tên:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Giới tính:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.GioiTinh)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Ngày sinh:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Chức vụ:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.ChucVu.Name)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Chuyên khoa:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.Khoa.Name)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Địa chỉ:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.DiaChi)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Số điện thoại:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.SoDienThoai)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Giới thiệu:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.GioiThieu)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Kinh nghiệm:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.KinhNghiem)</dd>
+
+                                <dt class="col-sm-4 font-weight-bold">Học vấn:</dt>
+                                <dd class="col-sm-8">@Html.DisplayFor(model => model.HocVan)</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <form id="deleteForm" asp-action="DeleteBacSi" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                            <a asp-action="IndexDoctor" class="btn btn-secondary ml-2">Quay lại danh sách</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        document.getElementById("deleteForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var form = this;
+
+            Swal.fire({
+                title: 'Bạn có chắc chắn?',
+                text: "Bạn sẽ không thể hoàn tác hành động này!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Xóa',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Show success message
+                    Swal.fire(
+                        'Đã xóa!',
+                        'Bản ghi đã được xóa.',
+                        'success'
+                    ).then(() => {
+                        // Submit the form after user clicks OK
+                        form.submit();
+                    });
+                }
+            });
+        });
+    </script>
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<DACS.Models.LichLamViec>
+
+@{
+    ViewData["Title"] = "Quản lý lịch làm việc";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 class="text-center">Quản lý lịch làm việc</h1>
+
+<p class="text-right">
+    <a class="btn btn-primary" asp-action="AddLichLamViec"><i class="fa fa-plus"></i> Tạo mới lịch làm việc</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Tên bác sĩ</th>
+                <th>Ngày làm của bác sĩ</th>
+                <th>Ca làm của bác sĩ</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.BacSi.Name</td>
+                    <td>@item.Lich.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Ca</td>
+                    <td>
+                        <a class="btn btn-danger btn-sm" asp-action="DeleteLichLamViec" asp-route-id="@item.Id">
+                            <i class="fa fa-trash"></i> Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-iKbFDOA/lczAedlPPLBbUlL9wAE60wvCoOq2Id1AR3dsDBFRfSA8LjUl/biTNL0H" crossorigin="anonymous">

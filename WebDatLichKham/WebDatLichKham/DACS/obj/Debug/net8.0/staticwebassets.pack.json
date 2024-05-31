@@ -1,0 +1,749 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebDatLichKham.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebDatLichKham.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\10.png",
+      "PackagePath": "staticwebassets\\Images\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\11.png",
+      "PackagePath": "staticwebassets\\Images\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\12.png",
+      "PackagePath": "staticwebassets\\Images\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\123123.png",
+      "PackagePath": "staticwebassets\\Images\\123123.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\13.png",
+      "PackagePath": "staticwebassets\\Images\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\2.png",
+      "PackagePath": "staticwebassets\\Images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\202405040852218045dsc7973-17147917261552143987885.jpg",
+      "PackagePath": "staticwebassets\\Images\\202405040852218045dsc7973-17147917261552143987885.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\3.png",
+      "PackagePath": "staticwebassets\\Images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\37_phauthuattaohinhthammy.png",
+      "PackagePath": "staticwebassets\\Images\\37_phauthuattaohinhthammy.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\3924123867636.mp4",
+      "PackagePath": "staticwebassets\\Images\\3924123867636.mp4"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\4.png",
+      "PackagePath": "staticwebassets\\Images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\4120.png_860.png",
+      "PackagePath": "staticwebassets\\Images\\4120.png_860.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\5.png",
+      "PackagePath": "staticwebassets\\Images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\6.png",
+      "PackagePath": "staticwebassets\\Images\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\7.png",
+      "PackagePath": "staticwebassets\\Images\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\8.png",
+      "PackagePath": "staticwebassets\\Images\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\9.png",
+      "PackagePath": "staticwebassets\\Images\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Appstore.svg",
+      "PackagePath": "staticwebassets\\Images\\Appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\BacSiKhanh.jpg",
+      "PackagePath": "staticwebassets\\Images\\BacSiKhanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\BacSiThaiBang.jpg",
+      "PackagePath": "staticwebassets\\Images\\BacSiThaiBang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\BacSiThanhNhan.jpg",
+      "PackagePath": "staticwebassets\\Images\\BacSiThanhNhan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Backgound.jpg",
+      "PackagePath": "staticwebassets\\Images\\Backgound.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Backgoundlogin.png",
+      "PackagePath": "staticwebassets\\Images\\Backgoundlogin.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Backgoundlogin_modified (1).png",
+      "PackagePath": "staticwebassets\\Images\\Backgoundlogin_modified (1).png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Backgoundlogin_modified.png",
+      "PackagePath": "staticwebassets\\Images\\Backgoundlogin_modified.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\BenhVienNguyenTrai.jpg",
+      "PackagePath": "staticwebassets\\Images\\BenhVienNguyenTrai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Bác sĩ Lâm Việt Trung.png",
+      "PackagePath": "staticwebassets\\Images\\Bác sĩ Lâm Việt Trung.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Chandoanhinhanh.png",
+      "PackagePath": "staticwebassets\\Images\\Chandoanhinhanh.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Chanthuongchinhhinh.png",
+      "PackagePath": "staticwebassets\\Images\\Chanthuongchinhhinh.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Coxuongkhop.png",
+      "PackagePath": "staticwebassets\\Images\\Coxuongkhop.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\DATLICH.jpg",
+      "PackagePath": "staticwebassets\\Images\\DATLICH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Dinhduong.png",
+      "PackagePath": "staticwebassets\\Images\\Dinhduong.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Gaymehoisuc.png",
+      "PackagePath": "staticwebassets\\Images\\Gaymehoisuc.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Googleplay.svg",
+      "PackagePath": "staticwebassets\\Images\\Googleplay.svg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Hohap.png",
+      "PackagePath": "staticwebassets\\Images\\Hohap.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Hoàng Thị Thu Huyền.png",
+      "PackagePath": "staticwebassets\\Images\\Hoàng Thị Thu Huyền.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Lê Thị Minh Hồng.png",
+      "PackagePath": "staticwebassets\\Images\\Lê Thị Minh Hồng.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Namkhoa.png",
+      "PackagePath": "staticwebassets\\Images\\Namkhoa.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Ngoaithankinh.png",
+      "PackagePath": "staticwebassets\\Images\\Ngoaithankinh.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Nhankhoa.png",
+      "PackagePath": "staticwebassets\\Images\\Nhankhoa.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Nhikhoa.png",
+      "PackagePath": "staticwebassets\\Images\\Nhikhoa.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Noithan.png",
+      "PackagePath": "staticwebassets\\Images\\Noithan.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Noithankinh.png",
+      "PackagePath": "staticwebassets\\Images\\Noithankinh.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Noitiet.png",
+      "PackagePath": "staticwebassets\\Images\\Noitiet.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Noitongquat.png",
+      "PackagePath": "staticwebassets\\Images\\Noitongquat.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Orion_find-user.svg",
+      "PackagePath": "staticwebassets\\Images\\Orion_find-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Orion_first-aid-kit.svg",
+      "PackagePath": "staticwebassets\\Images\\Orion_first-aid-kit.svg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Ranghammat.png",
+      "PackagePath": "staticwebassets\\Images\\Ranghammat.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Rectangle.png",
+      "PackagePath": "staticwebassets\\Images\\Rectangle.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Tiến sĩ, Bác sĩ Nguyễn Bá Thắng.png",
+      "PackagePath": "staticwebassets\\Images\\Tiến sĩ, Bác sĩ Nguyễn Bá Thắng.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Trần Quang Nam.PNG",
+      "PackagePath": "staticwebassets\\Images\\Trần Quang Nam.PNG"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Untitled.png",
+      "PackagePath": "staticwebassets\\Images\\Untitled.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Võ Đức Hiếu.png",
+      "PackagePath": "staticwebassets\\Images\\Võ Đức Hiếu.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\Yhoccotruyen.png",
+      "PackagePath": "staticwebassets\\Images\\Yhoccotruyen.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\ahihi.png",
+      "PackagePath": "staticwebassets\\Images\\ahihi.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\bacsi1.jpg",
+      "PackagePath": "staticwebassets\\Images\\bacsi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\bacsi2.jpg",
+      "PackagePath": "staticwebassets\\Images\\bacsi2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\bacsi3.jpg",
+      "PackagePath": "staticwebassets\\Images\\bacsi3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\bacsi4.jpg",
+      "PackagePath": "staticwebassets\\Images\\bacsi4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\doc1.png",
+      "PackagePath": "staticwebassets\\Images\\doc1.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\doc2.png",
+      "PackagePath": "staticwebassets\\Images\\doc2.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\doc3.png",
+      "PackagePath": "staticwebassets\\Images\\doc3.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\doc4.png",
+      "PackagePath": "staticwebassets\\Images\\doc4.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\duc.jpg",
+      "PackagePath": "staticwebassets\\Images\\duc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\groub.png",
+      "PackagePath": "staticwebassets\\Images\\groub.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\hero-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\hoisuccapcuu.png",
+      "PackagePath": "staticwebassets\\Images\\hoisuccapcuu.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\huyet-hoc.png",
+      "PackagePath": "staticwebassets\\Images\\huyet-hoc.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon1.png",
+      "PackagePath": "staticwebassets\\Images\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon2.jpg",
+      "PackagePath": "staticwebassets\\Images\\icon2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon3.jpg",
+      "PackagePath": "staticwebassets\\Images\\icon3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon4.png",
+      "PackagePath": "staticwebassets\\Images\\icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon_1.png",
+      "PackagePath": "staticwebassets\\Images\\icon_1.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon_2.png",
+      "PackagePath": "staticwebassets\\Images\\icon_2.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon_3.png",
+      "PackagePath": "staticwebassets\\Images\\icon_3.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\icon_4.png",
+      "PackagePath": "staticwebassets\\Images\\icon_4.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\k conect dc.png",
+      "PackagePath": "staticwebassets\\Images\\k conect dc.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\laobenhphoi.png",
+      "PackagePath": "staticwebassets\\Images\\laobenhphoi.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\log02.jpg",
+      "PackagePath": "staticwebassets\\Images\\log02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\login.png",
+      "PackagePath": "staticwebassets\\Images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\logo.svg",
+      "PackagePath": "staticwebassets\\Images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\logoo123.jpg",
+      "PackagePath": "staticwebassets\\Images\\logoo123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\ngoaitietnieu.png",
+      "PackagePath": "staticwebassets\\Images\\ngoaitietnieu.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\ngoaitongquat.png",
+      "PackagePath": "staticwebassets\\Images\\ngoaitongquat.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\nguyenthithuha.png",
+      "PackagePath": "staticwebassets\\Images\\nguyenthithuha.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\nguyễn thị thu hà.png",
+      "PackagePath": "staticwebassets\\Images\\nguyễn thị thu hà.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\sanphukhoa.png",
+      "PackagePath": "staticwebassets\\Images\\sanphukhoa.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\taimuihong.png",
+      "PackagePath": "staticwebassets\\Images\\taimuihong.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tamly.png",
+      "PackagePath": "staticwebassets\\Images\\tamly.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tamthan.png",
+      "PackagePath": "staticwebassets\\Images\\tamthan.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tieuhoa.png",
+      "PackagePath": "staticwebassets\\Images\\tieuhoa.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\timeplate1.png",
+      "PackagePath": "staticwebassets\\Images\\timeplate1.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\timeplate2.png",
+      "PackagePath": "staticwebassets\\Images\\timeplate2.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\timmach.png",
+      "PackagePath": "staticwebassets\\Images\\timmach.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin1.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin2.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin3.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin4.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin5.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tin6.jpg",
+      "PackagePath": "staticwebassets\\Images\\tin6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\tram.jpg",
+      "PackagePath": "staticwebassets\\Images\\tram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\truyennhiem.png",
+      "PackagePath": "staticwebassets\\Images\\truyennhiem.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\ungbuou.png",
+      "PackagePath": "staticwebassets\\Images\\ungbuou.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\vac1.jpg",
+      "PackagePath": "staticwebassets\\Images\\vac1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\vac2.jpg",
+      "PackagePath": "staticwebassets\\Images\\vac2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\xetnghiem.png",
+      "PackagePath": "staticwebassets\\Images\\xetnghiem.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\yhocduphong.png",
+      "PackagePath": "staticwebassets\\Images\\yhocduphong.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\z3924123730590_4f7c22cc34b7ce76eca3bb60c19397da.jpg",
+      "PackagePath": "staticwebassets\\Images\\z3924123730590_4f7c22cc34b7ce76eca3bb60c19397da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\z3924123733260_bb23a5e21238ec284e985f87d1f3fcef.jpg",
+      "PackagePath": "staticwebassets\\Images\\z3924123733260_bb23a5e21238ec284e985f87d1f3fcef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\z3946284565813_46ca6e38ddd2334e9ad2859769794032.jpg",
+      "PackagePath": "staticwebassets\\Images\\z3946284565813_46ca6e38ddd2334e9ad2859769794032.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\đuceptraijpg.jpg",
+      "PackagePath": "staticwebassets\\Images\\đuceptraijpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\Images\\ảnh bệnh án.png",
+      "PackagePath": "staticwebassets\\Images\\ảnh bệnh án.png"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Bacsi.css",
+      "PackagePath": "staticwebassets\\css\\Bacsi.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\datlichbacsi.css",
+      "PackagePath": "staticwebassets\\css\\datlichbacsi.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\reset.css",
+      "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\timeplate.css",
+      "PackagePath": "staticwebassets\\css\\timeplate.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebDatLichKham.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebDatLichKham.props",
+      "PackagePath": "build\\WebDatLichKham.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebDatLichKham.props",
+      "PackagePath": "buildMultiTargeting\\WebDatLichKham.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebDatLichKham.props",
+      "PackagePath": "buildTransitive\\WebDatLichKham.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

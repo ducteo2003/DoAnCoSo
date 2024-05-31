@@ -1,0 +1,80 @@
+﻿@model DACS.Models.TinYTe
+
+@{
+    ViewData["Title"] = "Thêm Tin Y Tế";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title">Thông tin chức vụ</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddTinYTe" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="TieuDe" class="font-weight-bold">Tiêu Đề</label>
+                            <input asp-for="TieuDe" class="form-control" placeholder="Nhập tiêu đề tin y tế" />
+                            <span asp-validation-for="TieuDe" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NoiDung" class="font-weight-bold">Nội Dung</label>
+                            <textarea asp-for="NoiDung" class="form-control" rows="5" placeholder="Nhập nội dung tin y tế"></textarea>
+                            <span asp-validation-for="NoiDung" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ImageUrl" class="font-weight-bold">Hình Ảnh Tin Tức</label>
+                            <input type="file" asp-for="ImageUrl" class="form-control" />
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success">Thêm</button>
+                            <a asp-action="IndexTinyte" class="btn btn-secondary">Quay lại</a>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 15px;
+        border: none;
+    }
+
+    .card-header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .form-label {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+</style>

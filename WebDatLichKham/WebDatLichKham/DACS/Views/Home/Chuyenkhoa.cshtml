@@ -1,0 +1,237 @@
+﻿@using WebDatLichKham.Models
+@model DatlichViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .body{
+        font-family:Arial;
+    
+    }
+    .dlkh-doctor-card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .dlkh-doctor-card__image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .dlkh-doctor-card__info {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .dlkh-doctor-card__info h5 {
+            margin-bottom: 5px;
+            font-size: 1.25rem;
+        }
+
+        .dlkh-doctor-card__info small {
+            font-size: 0.875rem;
+        }
+
+        .dlkh-doctor-card__info p {
+            margin-bottom: 5px;
+        }
+
+    .dlkh-book-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px; /* Adjust the width as needed */
+        height: 40px; /* Adjust the height as needed */
+    }
+
+        .dlkh-book-button:hover {
+            background-color: #0056b3;
+        }
+
+    .dlkh-results-count {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .dlkh-specialty-section {
+        margin-top: 50px;
+    }
+
+    .dlkh-specialty-section__item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+        .dlkh-specialty-section__item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .dlkh-specialty-section__item button {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+
+            .dlkh-specialty-section__item button:hover {
+                background-color: #f8f8f8;
+            }
+
+    .custom-container {
+        padding-top: 100px;
+        margin-top: 20px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+</style>
+
+<div class="custom-container">
+    <div class="row">
+        <!-- Phần chuyên khoa bên trái -->
+        <div class="col-md-3">
+            <div class="dlkh-specialty-filter p-3">
+                <h5 class="dlkh-specialty-filter__heading">Chuyên khoa</h5>
+                <div class="dlkh-specialty-filter__search-bar mb-3">
+                    <input type="text" id="searchSpecialtyInput" class="form-control" onkeyup="searchSpecialty()" placeholder="Tìm nhanh chuyên khoa">
+                </div>
+                <form id="specialtyForm">
+                    <div class="form-check dlkh-specialty-filter__form-check">
+                        <input class="form-check-input dlkh-specialty-filter__form-check-input" type="radio" name="specialty" id="specialtyAll" value="all" onclick="filterDoctors()">
+                        <label class="form-check-label dlkh-specialty-filter__form-check-label" for="specialtyAll">Tất cả</label>
+                    </div>
+                    @foreach (var khoa in Model.Khoas)
+                    {
+                        <div class="form-check dlkh-specialty-filter__form-check">
+                            <input class="form-check-input dlkh-specialty-filter__form-check-input" type="radio" name="specialty" id="specialty@khoa.Id_@khoa.Name.Replace(" ", "")" value="@khoa.Name" onclick="filterDoctors()">
+                            <label class="form-check-label dlkh-specialty-filter__form-check-label" for="specialty@khoa.Id_@khoa.Name.Replace(" ", "")">@khoa.Name</label>
+                        </div>
+                    }
+                </form>
+            </div>
+        </div>
+
+        <!-- Phần danh sách bác sĩ bên phải -->
+        <div class="col-md-9">
+            <div class="search-bar mb-4">
+                <input type="text" id="searchDoctorInput" class="form-control" onkeyup="filterDoctors()" placeholder="Tìm theo triệu chứng, bác sĩ, bệnh viện...">
+            </div>
+            <h2 class="mb-4">Bác sĩ theo Chuyên khoa</h2>
+            <div class="results-count mb-4">
+                <span id="resultsCount" class="dlkh-results-count">Tìm thấy @Model.BacSis.Count() kết quả.</span>
+            </div>
+            <div class="row" id="doctorList">
+                @foreach (var doctor in Model.BacSis)
+                {
+                    <div class="col-md-12 mb-3 dlkh-doctor-card" data-specialty="@doctor.Khoa.Name">
+                        <div class="d-flex align-items-center w-100">
+                            <div class="d-flex align-items-center w-75">
+                                <img src="@doctor.ImageUrl" alt="@doctor.Name" class="rounded-circle dlkh-doctor-card__image">
+                                <div class="dlkh-doctor-card__info">
+                                    <h5>@doctor.Name</h5>
+                                    <small class="text-muted">@doctor.Khoa.Name</small>
+                                    <p>@doctor.DiaChi</p>
+                                </div>
+                            </div>
+                            <a href="@Url.Action("Details", "Bacsis", new { id = doctor.Id })" class="dlkh-book-button w-25">Đặt khám</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var selectedSpecialtyName = localStorage.getItem('selectedSpecialtyName');
+        var selectedSpecialtyId = localStorage.getItem('selectedSpecialtyId');
+
+        if (selectedSpecialtyName && selectedSpecialtyId) {
+            var radios = document.getElementsByName('specialty');
+            for (var i = 0; i < radios.length; i++) {
+                var radio = radios[i];
+                var radioValue = radio.value;
+                var radioId = radio.id;
+
+                if (radioValue === selectedSpecialtyName && radioId.includes(selectedSpecialtyId)) {
+                    radio.checked = true;
+                    filterDoctors(); // Call filterDoctors to update the list based on the selected specialty
+                    break;
+                }
+            }
+            localStorage.removeItem('selectedSpecialtyName');
+            localStorage.removeItem('selectedSpecialtyId');
+        }
+    });
+
+    function filterDoctors() {
+        var specialtyInput = document.querySelector('input[name="specialty"]:checked') ? document.querySelector('input[name="specialty"]:checked').value : 'all';
+        var searchInput = document.getElementById("searchDoctorInput").value.toUpperCase();
+        var cards = document.getElementsByClassName("dlkh-doctor-card");
+        var count = 0;
+
+        for (var i = 0; i < cards.length; i++) {
+            var cardSpecialty = cards[i].getAttribute("data-specialty").toUpperCase();
+            var cardName = cards[i].getElementsByTagName("h5")[0].textContent.toUpperCase();
+            var cardAddress = cards[i].getElementsByTagName("p")[0].textContent.toUpperCase();
+
+            var matchesSpecialty = (specialtyInput === 'all' || cardSpecialty === specialtyInput.toUpperCase());
+            var matchesSearch = (searchInput === "" || cardName.indexOf(searchInput) > -1 || cardAddress.indexOf(searchInput) > -1);
+
+            if (matchesSpecialty && matchesSearch) {
+                cards[i].classList.remove('hidden');
+                count++;
+            } else {
+                cards[i].classList.add('hidden');
+            }
+        }
+        document.getElementById("resultsCount").innerText = "Tìm thấy " + count + " kết quả.";
+    }
+
+    function searchSpecialty() {
+        var input = document.getElementById("searchSpecialtyInput");
+        var filter = input.value.toUpperCase();
+        var form = document.getElementById("specialtyForm");
+        var labels = form.getElementsByClassName("form-check-label");
+
+        for (var i = 0; i < labels.length; i++) {
+            if (labels[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                labels[i].parentElement.style.display = "";
+            } else {
+                labels[i].parentElement.style.display = "none";
+            }
+        }
+    }
+
+    // Ensure filterDoctors is called when the search input changes
+    document.getElementById("searchDoctorInput").addEventListener('keyup', filterDoctors);
+</script>
+
+

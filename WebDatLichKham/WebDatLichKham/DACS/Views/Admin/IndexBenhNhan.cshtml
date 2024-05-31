@@ -1,0 +1,178 @@
+﻿@model IEnumerable<DACS.Models.BenhNhan>
+@{
+    ViewData["Title"] = "Quản lý bệnh nhân";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 class="text-center">Quản lý bệnh nhân</h1>
+
+<div class="form-group">
+    <input type="text" id="searchInput" class="form-control" placeholder="Nhập số điện thoại...">
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Tên bệnh nhân</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Số điện thoại</th>
+                <th>Địa chỉ</th>
+                <th>Ảnh bệnh nhân</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td>
+                    <td>@item.SoDienThoai</td>
+                    <td>@item.DiaChi</td>
+                    <td>
+                        <button class="view-image-btn btn btn-primary" data-images="@String.Join(";", item.Images.Select(i => i.ImageUrl))">Xem ảnh</button>
+                        <a class="btn btn-danger" asp-action="DeleteBenhNhan" asp-route-id="@item.Id">Xóa</a>
+                    </td>
+                    
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content">
+        <img id="modalImg" style="width: 100%; max-width: 800px;">
+        <div id="caption"></div>
+    </div>
+    <div class="modal-thumbnails"></div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-iKbFDOA/lczAedlPPLBbUlL9wAE60wvCoOq2Id1AR3dsDBFRfSA8LjUl/biTNL0H" crossorigin="anonymous">
+
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        padding-top: 50px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 800px;
+    }
+
+    .modal-thumbnails {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+        .modal-thumbnails img {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border: 2px solid white;
+            transition: transform 0.2s;
+        }
+
+            .modal-thumbnails img:hover {
+                transform: scale(1.1);
+                border-color: #ccc;
+            }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 800px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+    }
+</style>
+
+<script>
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+        var searchText = this.value.toLowerCase();
+        var rows = document.querySelectorAll("tbody tr");
+
+        rows.forEach(function (row) {
+            var phoneCell = row.cells[3].textContent.toLowerCase();
+            if (phoneCell.includes(searchText)) {
+                row.style.display = "";
+            } else {
+                row.style.display = "none";
+            }
+        });
+    });
+
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImg");
+    var modalThumbnails = document.querySelector(".modal-thumbnails");
+    var captionText = document.getElementById("caption");
+
+    document.querySelectorAll('.view-image-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+            var images = this.getAttribute('data-images').split(';');
+            modal.style.display = "block";
+            modalThumbnails.innerHTML = '';
+            images.forEach(src => {
+                var img = document.createElement('img');
+                img.src = src;
+                img.addEventListener('click', function () {
+                    modalImg.src = this.src;
+                    captionText.innerHTML = "Ảnh lớn";
+                });
+                modalThumbnails.appendChild(img);
+            });
+            modalImg.src = images[0];
+            captionText.innerHTML = "Ảnh lớn";
+        });
+    });
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    modal.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+
+</script>

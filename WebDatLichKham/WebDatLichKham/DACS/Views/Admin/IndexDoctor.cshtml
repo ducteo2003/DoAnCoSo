@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DACS.Models.BacSi>
+
+@{
+    ViewData["Title"] = "Quản lý bác sĩ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 class="text-center">Quản lý bác sĩ</h1>
+
+<p class="text-right">
+    <a class="btn btn-primary" asp-action="AddBacsi"><i class="fa fa-plus"></i> Tạo mới bác sĩ</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Tên bác sĩ</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Chức vụ</th>
+                <th>Chuyên khoa</th>
+                <th>Số điện thoại</th>
+                <th>Hình ảnh</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td>
+                    <td>@item.ChucVu?.Name</td>
+                    <td>@item.Khoa.Name</td>
+                    <td>@item.SoDienThoai</td>
+                    <td><img src="@Url.Content(item.ImageUrl)" alt="Doctor Image" class="img-thumbnail" style="max-width: 80px; max-height: 100px;" /></td>
+                    <td>
+                        <a class="btn btn-info btn-sm" asp-action="DetailsBacSi" asp-route-id="@item.Id"><i class="fa fa-eye"></i> Xem</a>
+                        <a class="btn btn-danger btn-sm" asp-action="DeleteBacSi" asp-route-id="@item.Id"><i class="fa fa-trash"></i> Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-iKbFDOA/lczAedlPPLBbUlL9wAE60wvCoOq2Id1AR3dsDBFRfSA8LjUl/biTNL0H" crossorigin="anonymous">

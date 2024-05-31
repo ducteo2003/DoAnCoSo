@@ -1,0 +1,207 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebDatLichKham.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, #6aa7e5, #4a90e2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+
+            .navbar-brand:hover {
+                color: #ffcc00;
+                text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            }
+
+        .navbar-nav .nav-link {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: chartreuse;
+            }
+
+        .dropdown-menu {
+            background-color: #f8f9fa;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item {
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+
+            .dropdown-item:hover {
+                background-color: #4a90e2;
+                color: white;
+            }
+
+        .main-content {
+            margin-top: 70px; /* Đảm bảo nội dung không bị che khuất bởi navbar */
+            padding: 20px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto;
+        }
+
+        media (max-width: 768px) {
+            .navbar-nav
+
+        {
+            flex-direction: column;
+        }
+
+        .main-content {
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            text-align: center;
+        }
+
+        .dashboard, .overview, .patients {
+            padding: 15px;
+        }
+
+            .overview h2, .patients h2 {
+                font-size: 1.25em;
+            }
+
+        }
+
+        .register-button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+            .register-button i {
+                margin-right: 8px;
+            }
+
+            .register-button:hover {
+                background-color: #6aa7e5;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                color: #ffcc00;
+            }
+
+            .register-button:focus {
+                outline: none;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(74, 144, 226, 0.5);
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="@Url.Action("Index", "Admin")">
+                Admin
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUsers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-users"></i> Quản lý người dùng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownUsers">
+                                <li><a class="dropdown-item" href="@Url.Action("IndexBenhNhan", "Admin")">Quản lý bệnh nhân</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("IndexDoctor", "Admin")">Quản lý bác sĩ</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("IndexLichLamViec", "Admin")">Quản lý lịch làm việc bác sĩ</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("IndexKhoa", "Admin")"><i class="fas fa-hospital"></i> Chuyên khoa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("IndexChucVu", "Admin")"><i class="fas fa-briefcase"></i> Chức vụ</a>
+                        </li>
+                    }
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAppointments" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-calendar-check"></i> Quản lý đặt lịch khám
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAppointments">
+                                <li><a class="dropdown-item index" href="@Url.Action("Index", "DatLichKhams")">Quản lý lịch khám bệnh</a></li>
+                                <li><a class="dropdown-item index-wait" href="@Url.Action("IndexWaitForConfirm", "DatLichKhams")">Lịch đang chờ xác nhận</a></li>
+                                <li><a class="dropdown-item index-confirm" href="@Url.Action("IndexConfirm", "DatLichKhams")">Lịch đang chờ khám</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("IndexTinYte", "Admin")"><i class="fas fa-book"></i> Cẩm nang</a>
+                        </li>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li>
+                            <button id="button-container" class="register-button" onclick="location.href='@Url.Page("/Account/Register", null, new { area = "Identity" })'">
+                                <i class="fas fa-user-plus"></i>
+                                <span>Quản lí tài khoản</span>
+                            </button>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid main-content">
+        @RenderBody()
+    </div>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

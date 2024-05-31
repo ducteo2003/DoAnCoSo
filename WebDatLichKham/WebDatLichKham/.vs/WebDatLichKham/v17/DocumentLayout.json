@@ -1,0 +1,1517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\home\\datlich.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\home\\datlich.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\datlichkhams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\datlichkhams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\home\\chuyenkhoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\home\\chuyenkhoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\controllers\\datlichkhamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\controllers\\datlichkhamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\datlichviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\datlichviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\chitietdatlichkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\chitietdatlichkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\datlichkhams\\indexconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\datlichkhams\\indexconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\chandoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\chandoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\dieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\benhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\controllers\\bacsiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\controllers\\bacsiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\bacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\lichlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\lichlamviec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\khoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\datlichkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\datlichkham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efdieutrirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efdieutrirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efchandoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efchandoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\idieutrirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\idieutrirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\ichuyenkhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\ichuyenkhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efchucvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efchucvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efchuyenkhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efchuyenkhoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\eflichkhambenhrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\eflichkhambenhrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\eftinyte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\eftinyte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\models\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\models\\chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\ibenhnhanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\ibenhnhanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\ichandoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\ichandoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\extensions\\datetimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efbenhnhanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efbenhnhanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\datlichkhams\\indexexamin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\datlichkhams\\indexexamin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\datlichkhams\\indexwaitforconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\datlichkhams\\indexwaitforconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\home\\viewconfrim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\home\\viewconfrim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\nhapthongtinbenhnhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\nhapthongtinbenhnhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\bacsi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\bacsi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\_workschedules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\_workschedules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\datlichkhams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\datlichkhams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\deletetinyte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\deletetinyte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\deletelichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\deletelichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\deletekhoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\deletekhoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\deletechucvu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\deletechucvu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\deletebacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\deletebacsi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\edittinyte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\edittinyte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\efbacsirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\efbacsirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\timeplate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\timeplate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\reset.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\reset.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\wwwroot\\css\\datlichbacsi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\wwwroot\\css\\datlichbacsi.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\zaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\zaloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240422081137_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240422081137_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\ibacsirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\ibacsirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\indexlichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\indexlichlamviec.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\admin\\indexdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\admin\\indexdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\ilichkhambenhrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\ilichkhambenhrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\views\\bacsis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\views\\bacsis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\zalooauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\zalooauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\repositories\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\repositories\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240523162734_addanhkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240523162734_addanhkhoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240525123930_deletetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240525123930_deletetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240530140031_themtruongbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240530140031_themtruongbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240530133119_addchuandoandieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240530133119_addchuandoandieutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|c:\\users\\tranv\\documents\\zalo received files\\webdatlichkham\\webdatlichkham\\dacs\\migrations\\20240530145546_chandoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99BA8FDF-A136-4A9C-8202-9E1B67A81383}|DACS\\WebDatLichKham.csproj|solutionrelative:dacs\\migrations\\20240530145546_chandoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\Details.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\DatLichKhams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\Details.cshtml",
+              "RelativeToolTip": "DACS\\Views\\DatLichKhams\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:57:44.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatLichKhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\DatLichKhamsController.cs",
+              "RelativeDocumentMoniker": "DACS\\Controllers\\DatLichKhamsController.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\DatLichKhamsController.cs",
+              "RelativeToolTip": "DACS\\Controllers\\DatLichKhamsController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAgwDsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:35:51.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BenhNhan.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\BenhNhan.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\BenhNhan.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\BenhNhan.cs",
+              "RelativeToolTip": "DACS\\Models\\BenhNhan.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:35:03.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DieuTri.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DieuTri.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DieuTri.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DieuTri.cs",
+              "RelativeToolTip": "DACS\\Models\\DieuTri.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:24:47.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChanDoan.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChanDoan.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\ChanDoan.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChanDoan.cs",
+              "RelativeToolTip": "DACS\\Models\\ChanDoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:23:55.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChiTietDatLichKham.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChiTietDatLichKham.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\ChiTietDatLichKham.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChiTietDatLichKham.cs",
+              "RelativeToolTip": "DACS\\Models\\ChiTietDatLichKham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:54:28.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T17:03:06.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datlich.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Datlich.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Home\\Datlich.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Datlich.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Home\\Datlich.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:49:19.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chuyenkhoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Chuyenkhoa.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Home\\Chuyenkhoa.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Chuyenkhoa.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Home\\Chuyenkhoa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T16:37:58.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KhoasController.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\KhoasController.cs",
+              "RelativeDocumentMoniker": "DACS\\Controllers\\KhoasController.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\KhoasController.cs",
+              "RelativeToolTip": "DACS\\Controllers\\KhoasController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA+wBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:17:40.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IndexConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexConfirm.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\DatLichKhams\\IndexConfirm.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexConfirm.cshtml",
+              "RelativeToolTip": "DACS\\Views\\DatLichKhams\\IndexConfirm.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwEoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:51:18.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatlichViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DatlichViewModel.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DatlichViewModel.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DatlichViewModel.cs",
+              "RelativeToolTip": "DACS\\Models\\DatlichViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:18:37.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BacSisController.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\BacSisController.cs",
+              "RelativeDocumentMoniker": "DACS\\Controllers\\BacSisController.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\BacSisController.cs",
+              "RelativeToolTip": "DACS\\Controllers\\BacSisController.cs",
+              "ViewState": "AQIAABgBAAAAAAAAAAASwNYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:46:52.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DACS\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DACS\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAkwGsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:19:57.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BacSi.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\BacSi.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\BacSi.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\BacSi.cs",
+              "RelativeToolTip": "DACS\\Models\\BacSi.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:24:24.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DatLichKham.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DatLichKham.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\DatLichKham.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\DatLichKham.cs",
+              "RelativeToolTip": "DACS\\Models\\DatLichKham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:29:09.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Khoa.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\Khoa.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\Khoa.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\Khoa.cs",
+              "RelativeToolTip": "DACS\\Models\\Khoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:13:10.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LichLamViec.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\LichLamViec.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\LichLamViec.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\LichLamViec.cs",
+              "RelativeToolTip": "DACS\\Models\\LichLamViec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:19:57.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Program.cs",
+              "RelativeDocumentMoniker": "DACS\\Program.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Program.cs",
+              "RelativeToolTip": "DACS\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T07:01:40.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EFChandoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChandoanRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFChandoanRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChandoanRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFChandoanRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:28.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EFChuyenKhoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChuyenKhoaRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFChuyenKhoaRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChuyenKhoaRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFChuyenKhoaRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:21:43.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20240530145546_chandoan.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530145546_chandoan.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240530145546_chandoan.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530145546_chandoan.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240530145546_chandoan.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:55:46.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDieutriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IDieutriRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IDieutriRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IDieutriRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IDieutriRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:22:58.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EFDieutriRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFDieutriRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFDieutriRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFDieutriRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFDieutriRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:24:13.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DACS\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DACS\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA0wBcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:38:34.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "DACS\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:15:23.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IChuyenKhoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IChuyenKhoaRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IChuyenKhoaRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IChuyenKhoaRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IChuyenKhoaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:57.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DACS\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:15:19.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EFChucvuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChucvuRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFChucvuRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFChucvuRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFChucvuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:14:44.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EFTinYte.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFTinYte.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFTinYte.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFTinYte.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFTinYte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:42.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\Image.cs",
+              "RelativeToolTip": "DACS\\Models\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:25:22.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DACS\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:11:44.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EFLichkhamBenhRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFLichkhamBenhRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFLichkhamBenhRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFLichkhamBenhRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFLichkhamBenhRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:29:18.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChucVu.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChucVu.cs",
+              "RelativeDocumentMoniker": "DACS\\Models\\ChucVu.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Models\\ChucVu.cs",
+              "RelativeToolTip": "DACS\\Models\\ChucVu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:11:27.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IBenhNhanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IBenhNhanRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IBenhNhanRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IBenhNhanRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IBenhNhanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:10:45.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DACS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DACS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwFkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:20:16.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DateTimeExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Extensions\\DateTimeExtensions.cs",
+              "RelativeDocumentMoniker": "DACS\\Extensions\\DateTimeExtensions.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Extensions\\DateTimeExtensions.cs",
+              "RelativeToolTip": "DACS\\Extensions\\DateTimeExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:24:15.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IChanDoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IChanDoanRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IChanDoanRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IChanDoanRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IChanDoanRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:04.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EFBenhNhanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFBenhNhanRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFBenhNhanRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFBenhNhanRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFBenhNhanRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:38.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20240530140031_themtruongbenhnhan.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530140031_themtruongbenhnhan.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240530140031_themtruongbenhnhan.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530140031_themtruongbenhnhan.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240530140031_themtruongbenhnhan.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:00:31.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-26T07:51:18.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T08:57:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T07:51:05.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T11:15:53.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20240530133119_addchuandoandieutri.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530133119_addchuandoandieutri.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240530133119_addchuandoandieutri.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240530133119_addchuandoandieutri.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240530133119_addchuandoandieutri.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:31:19.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T16:57:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:57:20.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IndexExamin.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexExamin.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\DatLichKhams\\IndexExamin.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexExamin.cshtml",
+              "RelativeToolTip": "DACS\\Views\\DatLichKhams\\IndexExamin.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T15:39:18.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IndexWaitForConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexWaitForConfirm.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\DatLichKhams\\IndexWaitForConfirm.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\IndexWaitForConfirm.cshtml",
+              "RelativeToolTip": "DACS\\Views\\DatLichKhams\\IndexWaitForConfirm.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:28:54.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:17:34.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwEIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:32:03.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:20:01.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ViewConfrim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\ViewConfrim.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Home\\ViewConfrim.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\ViewConfrim.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Home\\ViewConfrim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:28.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAwL8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:24:04.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "tintuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\tintuc.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Home\\tintuc.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Home\\tintuc.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Home\\tintuc.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:33.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:23:49.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DACS\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\appsettings.Development.json",
+              "RelativeToolTip": "DACS\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:58:23.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T08:58:31.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:58:12.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\appsettings.json",
+              "RelativeDocumentMoniker": "DACS\\appsettings.json",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\appsettings.json",
+              "RelativeToolTip": "DACS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T08:01:21.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NhapThongTinBenhNhan.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\NhapThongTinBenhNhan.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\NhapThongTinBenhNhan.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\NhapThongTinBenhNhan.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\NhapThongTinBenhNhan.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAADUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:19:21.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAkwJwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:27:08.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\register.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-26T08:51:43.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "DACS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwIEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:09:02.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Bacsi.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Bacsi.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\Bacsi.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\Bacsi.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\Bacsi.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-26T08:40:57.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Details.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\Details.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Details.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\Details.cshtml",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAJ8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:46.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\DatLichKhams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\DatLichKhams\\Index.cshtml",
+              "RelativeToolTip": "DACS\\Views\\DatLichKhams\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwBIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:29:44.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "_WorkSchedules.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\_WorkSchedules.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\_WorkSchedules.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\_WorkSchedules.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\_WorkSchedules.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:42.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DeleteBacSi.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteBacSi.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\DeleteBacSi.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteBacSi.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\DeleteBacSi.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAiwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:49:17.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DeleteChucVu.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteChucVu.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\DeleteChucVu.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteChucVu.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\DeleteChucVu.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:49:32.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DeleteKhoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteKhoa.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\DeleteKhoa.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteKhoa.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\DeleteKhoa.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:49:47.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "DeleteLichLamViec.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteLichLamViec.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\DeleteLichLamViec.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteLichLamViec.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\DeleteLichLamViec.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAiwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:50:05.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DeleteTinYte.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteTinYte.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\DeleteTinYte.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\DeleteTinYte.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\DeleteTinYte.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:50:29.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EditTinYTe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\EditTinYTe.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\EditTinYTe.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\EditTinYTe.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\EditTinYTe.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:48:28.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20240525123930_deletetable.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240525123930_deletetable.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240525123930_deletetable.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240525123930_deletetable.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240525123930_deletetable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:39:30.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "EFBacsiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFBacsiRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EFBacsiRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EFBacsiRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EFBacsiRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:35:43.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ZaloService.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ZaloService.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\ZaloService.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ZaloService.cs",
+              "RelativeToolTip": "DACS\\Repositories\\ZaloService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:56:40.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "datlichbacsi.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\datlichbacsi.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\datlichbacsi.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\datlichbacsi.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\datlichbacsi.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-25T09:00:32.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "reset.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\reset.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\reset.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\reset.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\reset.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-25T09:00:41.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "timeplate.css",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\timeplate.css",
+              "RelativeDocumentMoniker": "DACS\\wwwroot\\css\\timeplate.css",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\wwwroot\\css\\timeplate.css",
+              "RelativeToolTip": "DACS\\wwwroot\\css\\timeplate.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-25T09:01:01.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20240422081137_createtable.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240422081137_createtable.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240422081137_createtable.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240422081137_createtable.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240422081137_createtable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:47:25.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IBacsiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IBacsiRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IBacsiRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IBacsiRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IBacsiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:35:19.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ILichKhamBenhRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ILichKhamBenhRepository.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\ILichKhamBenhRepository.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ILichKhamBenhRepository.cs",
+              "RelativeToolTip": "DACS\\Repositories\\ILichKhamBenhRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:29:14.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EmailService.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\EmailService.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\EmailService.cs",
+              "RelativeToolTip": "DACS\\Repositories\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:01:52.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IndexDoctor.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\IndexDoctor.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\IndexDoctor.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\IndexDoctor.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\IndexDoctor.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T15:38:56.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IndexLichLamViec.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\IndexLichLamViec.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\Admin\\IndexLichLamViec.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\Admin\\IndexLichLamViec.cshtml",
+              "RelativeToolTip": "DACS\\Views\\Admin\\IndexLichLamViec.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T15:43:51.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Create.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\Create.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Create.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T05:39:19.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20240523162734_addanhkhoa.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240523162734_addanhkhoa.cs",
+              "RelativeDocumentMoniker": "DACS\\Migrations\\20240523162734_addanhkhoa.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Migrations\\20240523162734_addanhkhoa.cs",
+              "RelativeToolTip": "DACS\\Migrations\\20240523162734_addanhkhoa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:27:34.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Delete.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:48.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Edit.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:45.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Index.cshtml",
+              "RelativeDocumentMoniker": "DACS\\Views\\BacSis\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Views\\BacSis\\Index.cshtml",
+              "RelativeToolTip": "DACS\\Views\\BacSis\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T15:28:45.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ZaloOAuth.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ZaloOAuth.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\ZaloOAuth.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\ZaloOAuth.cs",
+              "RelativeToolTip": "DACS\\Repositories\\ZaloOAuth.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:54:08.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IEmailService.cs",
+              "RelativeDocumentMoniker": "DACS\\Repositories\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\tranv\\Documents\\Zalo Received Files\\WebDatLichKham\\WebDatLichKham\\DACS\\Repositories\\IEmailService.cs",
+              "RelativeToolTip": "DACS\\Repositories\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:01:42.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

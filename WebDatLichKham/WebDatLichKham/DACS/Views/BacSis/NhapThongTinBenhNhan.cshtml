@@ -1,0 +1,232 @@
+﻿@model DACS.Models.BenhNhan
+@{
+    Layout = null;
+}
+
+<!-- Import FontAwesome without integrity attribute -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    .container {
+        padding: 20px;
+    }
+
+    .doctor-info {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .doctor-detail {
+        display: flex;
+        align-items: center;
+    }
+
+        .doctor-detail img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 80px;
+            height: 80px;
+        }
+
+    .fee-info {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #f56a00;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .form-control-icon {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+     
+        color: #999;
+    }
+
+    .btn-primary {
+        background-color: mintcream;
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 14px;
+    }
+
+        .btn-primary:hover {
+            background-color: mintcream;
+            color: black;
+        }
+
+    .btn-secondary {
+        background-color: #dc3545;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+        .btn-secondary:hover {
+            background-color: #c82333;
+        }
+
+    .text-danger {
+        color: #dc3545;
+        font-size: 12px;
+    }
+</style>
+
+<div class="container">
+    <div class="doctor-info">
+        <h2>ĐẶT LỊCH KHÁM</h2>
+        <div class="doctor-detail">
+            <img src="@ViewBag.BacSi?.ImageUrl" alt="@ViewBag.BacSi?.Name" />
+            <div>
+                <h3>@ViewBag.BacSi?.ChucVu @ViewBag.BacSi?.Name</h3>
+                <p>Ngày: @(ViewBag.Lich != null ? ViewBag.Lich.ToShortDateString() : "N/A") </p>
+                <p>Giờ: @(ViewBag.Ca != null ? ViewBag.Ca.ToString("HH\\:mm") : "N/A") </p>
+            </div>
+        </div>
+    </div>
+
+    <form asp-action="NhapThongTinBenhNhan" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="lichId" value="@ViewBag.LichId" />
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Họ và Tên</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-user"></i></span>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="SoDienThoai" class="control-label">Số Điện Thoại</label>
+                    <input asp-for="SoDienThoai" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-phone"></i></span>
+                    <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Gmail" class="control-label">Email</label>
+                    <input asp-for="Gmail" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-envelope"></i></span>
+                    <span asp-validation-for="Gmail" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
+                    <input asp-for="DiaChi" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-home"></i></span>
+                    <span asp-validation-for="DiaChi" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="GioiTinh" class="control-label">Giới tính</label>
+                    <select asp-for="GioiTinh" class="form-control">
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                    <span class="form-control-icon"><i class="fas fa-venus-mars"></i></span>
+                    <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="NgaySinh" class="control-label">Ngày sinh</label>
+                    <input asp-for="NgaySinh" type="date" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-calendar-alt"></i></span>
+                    <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="TinhTrang" class="control-label">Lí do khám bệnh</label>
+                    <input asp-for="TinhTrang" class="form-control" />
+                    <span class="form-control-icon"><i class="fas fa-notes-medical"></i></span>
+                    <span asp-validation-for="TinhTrang" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ImageUrl" class="control-label">Hình Ảnh</label>
+                    <input type="file" name="imageUrls" class="form-control" multiple onchange="previewImages()" />
+                    <div id="imagePreview" style="margin-top: 10px;">
+                        <!-- Image previews will be shown here -->
+                    </div>
+                    <div id="imageCount" style="margin-top: 10px;">
+                        0/3
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group text-right">
+            <input type="submit" value="Lưu" class="btn btn-primary" />
+            <input type="button" value="Thoát" class="btn btn-secondary" onclick="window.history.back();" />
+        </div>
+    </form>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+    function previewImages() {
+        var preview = document.querySelector('#imagePreview');
+        var countDisplay = document.querySelector('#imageCount');
+        var inputFile = document.querySelector('input[type=file]');
+        preview.innerHTML = '';
+        var files = inputFile.files;
+
+        if (files.length > 3) {
+            alert('Bạn chỉ có thể chọn tối đa 3 ảnh');
+            inputFile.value = '';
+            countDisplay.textContent = '0/3';
+            return;
+        }
+
+        countDisplay.textContent = `${files.length}/3`;
+
+        function readAndPreview(file) {
+            if (/\.(jpe?g|png|gif)$/i.test(file.name)) {
+                var reader = new FileReader();
+
+                reader.addEventListener("load", function () {
+                    var image = new Image();
+                    image.height = 100;
+                    image.title = file.name;
+                    image.src = this.result;
+                    preview.appendChild(image);
+                }, false);
+
+                reader.readAsDataURL(file);
+            }
+        }
+
+        if (files) {
+            [].forEach.call(files, readAndPreview);
+        }
+    }
+</script>
